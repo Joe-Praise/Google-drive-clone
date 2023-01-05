@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Google Sans", Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* costomer section */
+
+/* customer-1a section */
+
+.customer-container {
+    width: 1296px;
+    height: 780px;
+    margin: 140px auto;
+    border: 2px solid white;
+    /* background-color: whitesmoke; */
+}
+
+.customer-1a {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.customer-1a h1 {
+    width: 896px;
+    height: 112px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    color: black;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.customer-1a .customer-1a-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.customer-1a .customer-1a-images img {
+    padding:0 30px;
+    width: 106px;
+    height: 152px;
+}
+
+
+
+/* customer-1b section */
+.customer-1b {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid white;
+    background-color:white;
+    overflow: hidden;
+}
+
+.customer-1bi {
+ width: 60%;
+ margin: 0 auto;
+ padding-top: 30px;
+}
+
+.customer-1bi .center {
+    width: 250px;
+    height: 89px;
+    margin: 10px auto;
+}
+
+.customer-1bi .center img {
+    width: 250px;
+    height: 89px;
+}
+
+
+.customer-1bi h3{
+    width: 98%;
+    margin: 40px auto;
+    font-size: 21px;
+    line-height: 25px;
+    
+}
+
+.customer-1bi p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.customer-1bi p a {
+    color: #1a73e8;
+
+}
+
+/* customer-1c section*/
+.customer-1c {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.customer-1c h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+.customer-1c .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.customer-1c .images img {
+    width: 150px;
+    height: 90px;
+    background: #fff;
+    border: 0.5px solid whitesmoke;
+    margin: 0 6px;
+    border-radius:3px;
+}
+
+.customer-1c .images img:hover {
+    box-shadow: 0px -0px 4px rgb(215, 214, 214), 3px 3px 2px rgb(235, 235, 235), -3px 0 2px rgb(235, 235, 235);
+    transition: smooth 0.8ms ease;
+}
+
+
